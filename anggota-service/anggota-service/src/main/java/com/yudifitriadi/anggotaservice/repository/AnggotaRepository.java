@@ -16,8 +16,5 @@ import org.springframework.stereotype.Repository;
 public interface AnggotaRepository extends JpaRepository<Anggota, Long> {
     
     public Anggota findByAnggotaId(Long anggotaId);
-
-    @Override
-    public Anggota save(Anggota anggota);
     
 }

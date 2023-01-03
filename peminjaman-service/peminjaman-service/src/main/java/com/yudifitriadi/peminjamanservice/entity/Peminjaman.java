@@ -29,7 +29,11 @@ public class Peminjaman {
     private String tglpinjam;
     private String tglkembali;
 
-    public String getAnggotaId() {
+    public String getIdAnggota() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public String getIdBuku() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

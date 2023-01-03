@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.yudifitriadi.peminjamanservice.VO;
+package com.yudifitriadi.peminjamanservice.vo;
 
 import com.yudifitriadi.peminjamanservice.entity.Peminjaman;
 import lombok.AllArgsConstructor;
@@ -21,10 +21,6 @@ public class ResponseTemplateVO {
     private Anggota anggota;
 
     public void setPeminjaman(Peminjaman peminjaman) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    public void setAnggota(Anggota anggota) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
